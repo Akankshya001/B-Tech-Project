@@ -738,7 +738,7 @@ class EDMModelSuite:
         return joblib.load(path)
 
 
-def load_edm_data(filepath="data/edm.csv"):
+def load_edm_data(filepath="EDM Datasheet - Sheet1.csv"):
     """
     Expected EDM CSV columns:
         workpiece_material
